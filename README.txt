@@ -4,7 +4,7 @@ Donate link: http://www.speakstudioscoop.com/
 Tags: music, player, library, itunes, mp3, sound, html5
 Requires at least: 3.8.1
 Tested up to: 4.1
-Stable tag: 1.0
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
