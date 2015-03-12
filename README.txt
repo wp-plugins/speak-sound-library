@@ -4,7 +4,7 @@ Donate link: http://www.speakstudioscoop.com/
 Tags: music, player, library, itunes, mp3, sound, html5
 Requires at least: 3.8.1
 Tested up to: 4.1
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,11 +12,7 @@ Plugin for managing a library of sounds with simple frontend hooks.
 
 == Description ==
 
-= Overview =
-
 Speak Sound Library allows tight management and presentation of a music library. Users can import mp3’s into the system with an individual uploader or by recursively scanning a folder uploaded via ftp. Once scanned, the ID3 information is extracted out of the mp3 files and used to create a SQL entry. The resulting ‘posts’ are then organized and filterable by artist, genre, album, etc. Users can also attach additional meta-data, such as a youtube link to each song. This song data can be presented on the front-end using our plugin’s short code methods, which returns PHP objects, or using an ajax hook, which returns formatted JSON data. An example implementation (still beta), can be seen at http://www.speakstudioscoop.com/music.
-
-= If you find any bugs, please report them or email the developer before giving the plugin a poor rating. They will be fixed very quickly. =
 
 == Installation ==
 

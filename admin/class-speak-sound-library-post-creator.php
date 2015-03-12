@@ -102,7 +102,6 @@ class Speak_Sound_Library_Post_Creator {
                     'post_type'     => $this->custom_post_type,
                     'post_author'   => 1,
                 );
-
                 // Insert the post into the database
                 $post_id = wp_insert_post( $new_post );
                 if($post_id != 0){
@@ -118,6 +117,7 @@ class Speak_Sound_Library_Post_Creator {
                     add_post_meta($post_id, 'artist', $meta['artist']);
                     add_post_meta($post_id, 'album', $meta['album']);
                     add_post_meta($post_id, 'genre', $meta['genre']);
+                    add_post_meta($post_id, 'length', $meta['length']);
 
 
                     //sound file url

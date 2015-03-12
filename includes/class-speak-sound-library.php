@@ -129,6 +129,12 @@ class Speak_Sound_Library {
          */
         require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/partials/speak-sound-library-sounds-from-folder.php';
 
+		/**
+		 * The class responsible for defining all actions that occur in the public-facing
+		 * side of the site.
+		 */
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-speak-sound-library-public.php';
+
         /**
          * The class responsible for creating a post from the uploader callback
          */
